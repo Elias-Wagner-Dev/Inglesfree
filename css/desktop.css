@@ -1,0 +1,459 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+  --cor-destaque: #648195;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+
+#bannersection {
+    position: relative;
+    width: 100%;
+    height: 488px;
+
+}
+
+#banner1 {
+
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+#imgbanner {
+    width: 100%;
+    height: 100%;
+}
+#conteinerbanner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#banner2 {
+    position: absolute;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imgbanner2 {
+    width: 443px;
+    height: 453px;
+}
+
+#textbanner {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#textbanner p {
+    color: #ffffff;
+    z-index: 55;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#textbanner p:nth-child(2) {
+    font-size: 100px;
+    margin-left: 10px;
+}
+
+
+#professorsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+}
+
+#professorinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 60%;
+    height: 80px;
+    border-radius: 50px;
+    background-color: var(--cor-destaque);
+}
+
+#professorinfo p {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+#card {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#bannerquestion{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 538px;
+}
+#backbannerquestion{
+    width: 100%;
+    height: 100%;
+}
+#imgbannerquestion{
+    width: 100%;
+    height: 100%;
+}
+
+#conteiner{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+
+   
+}
+
+#textquestion{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textquestion p{
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+}
+
+#infocurso{
+    margin-top: 20px;
+    height: 1004px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#info{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0px 0px 2px 0px #000000;
+}
+#info p {
+    text-align: center;
+    font-size: 35px;
+}
+#info p:nth-child(2){
+    margin-top: 30px;
+    font-size: 23px;
+}
+#alunos{
+    position: relative;
+    height: 660px;
+    width: 100%;
+    margin-top: 20px;
+}
+#center{
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#conteiner2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#price{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pcard{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#foolter{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#infoft{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 140px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px 0px #000000;
+    border-radius: 80px;
+}
+
+
+#mail{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px #000000;
+    border-radius: 35px;
+    margin-top: 6px;
+}
+#form button{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    border-radius: 45px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+#bannerfoolter{
+    width:100%;
+    height: 100%;
+}
+
+#infofoolter{
+    
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 120px;
+    box-shadow: 0px 0px 3px 0px #ffffff;
+
+    
+}
+
+
+#contato{
+    width: 380px;
+    height: 150px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+#contato img{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#contato p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--cor-destaque);
+}
+
+#contato div{
+    margin-top: 10px;
+    width:100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.professorcard {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 450px;
+    border-radius: 50px;
+    background-color: var(--cor-destaque);
+}
+
+.cardtextprofessor {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardtextprofessor p {
+    text-align: center;
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.cardtextprofessor p:nth-child(2) {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.cardbutton {
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.flag{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100px;
+}
+
+.cardalunos{
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardprice{
+    width: 280px;
+    height: 300px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.cardprice p {
+    color: #fa0000;
+}
+.price{
+    margin-top: 20px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.price p{
+    font-size: 80px;
+}
+
+
+
+.price p:nth-child(2){
+    font-size: 40px;
+}
+
+.pricetext p:nth-child(1) {
+    font-size: 18;
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.pricetext p:nth-child(2){
+    font-size: 18;
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cardprice button {
+    margin-top: 20px;
+    width: 80px;
+    height: 35px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    cursor: pointer;
+}
+
+.infocontato{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 3px 0px #000000;
+    border-radius: 35px;
+}
+
+.infocontato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+.infocontato p{
+    font-size: 22px;
+    text-align: center;
+   
+}
+.infocontato div p:hover{
+    color: #fa0000;
+    cursor: pointer;
+}
+.infocontato div{
+    margin-top: 5px;
+}
+.infocontato div p{
+    font-size: 18px;
+}
+
+.infocontato p:nth-child(1){
+    margin-top: 20px;
+}
